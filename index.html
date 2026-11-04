@@ -595,7 +595,7 @@ if(orderForm){
   if(btn){btn.disabled=true;btn.textContent='ОТПРАВКА...'}
   if(status)status.textContent='Заявка отправляется...';
   try{
-   const response=await fetch('https://smkk02-tgbot.onrender.com/order',{
+   const response=await fetch('https://smkk-story.onrender.com/order',{
     method:'POST',
     headers:{'Content-Type':'application/json'},
     body:JSON.stringify(payload)
